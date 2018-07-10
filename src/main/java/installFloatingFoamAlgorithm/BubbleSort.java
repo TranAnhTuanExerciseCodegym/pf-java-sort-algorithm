@@ -18,7 +18,6 @@ public class BubbleSort {
                     int temp = list[j];
                     list[j] = list[j + 1];
                     list[j + 1] = temp;
-
                     needNextPass = true;
                 }
             }
